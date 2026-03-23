@@ -71,34 +71,33 @@
 
 ## Day 5: Kubernetes Security
 
-**Focus**: TBD
+**Focus**: 
+ 
+- Namespaces
+- RBAC
+- Network Policies
+- Kyverno
+- Secrets
+- External Secrets Operator
 
-### Concepts:
-- TBD
-
-### Tool Spotlight:
-- TBD
-
-### Hands-on Lab:
-- TBD
 ---
 
-## Day 6: Dynamic Testing (DAST) & API Security
-
+## Day 6: SAST, SCA and DAST
 **Focus**: Testing the running application for real-world exploits.
 
 ### Concepts:
+- **SAST**
+- **SCA**
 - **DAST** (Dynamic Application Security Testing): Attacking the app like a hacker
-- OWASP Top 10 (2026 Updates): Injection, Broken Access Control, etc.
-- Securing REST & GraphQL APIs
+
 
 ### Tool Spotlight:
+- SonarQube
 - OWASP ZAP (Automation)
-- StackHawk
 
 ### Hands-on Lab:
-- Run an automated ZAP baseline scan against a running staging environment
-- Generate a PDF report
+- Run an automated ZAP baseline scan against a Python application
+- Run SAST and SCA against a Python application
 
 ---
 
@@ -106,13 +105,4 @@
 
 **Focus**: Bringing it all together and the DevSecOps Career Roadmap.
 
-### The Master Project: Build a "Golden Pipeline" that includes:
-1. **Secret Scan** (Pre-commit)
-2. **SAST/SCA** (Build phase)
-3. **IaC Scan** (Provision phase)
-4. **DAST** (Post-deploy phase)
-5. **AI Fixes**: Use AI (like GitHub Copilot or Snyk AI) to auto-remediate a found bug
-
-### Career Guidance:
-- **Certifications**: CASE, CND, DevSecOps Foundation
-- **Resume Tips** and guidance for the future of the role
+Refer - https://github.com/iam-veeramalla/Jerney
